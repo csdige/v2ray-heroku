@@ -6,7 +6,7 @@
 
 > 3. 客户端可使用`Websocket`端口`80`，或`Websocket+TLS`端口`443`传输。
 
-> 4. 部署到VPS时，域名变量`DOMAIN`和`docker cp`拷入证书即可开启TLS。
+> 4. 部署到VPS时域名变量`DOMAIN`和`docker cp`拷入证书即可开启TLS。
 > ```sh
 > /v2ray/cert.pem
 > /v2ray/key.pem
